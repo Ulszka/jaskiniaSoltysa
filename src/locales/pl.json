@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "info": "Informacje",
+    "faq": "Pytania",
+    "photos": "Zdjęcia",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Witajcie w Jaskini Sołtysa",
+    "subtitle": "Zapraszamy do wspólnego świętowania naszych wyjątkowych chwil!"
+  },
+  "info": {
+    "title": "Informacje o wydarzeniu",
+    "description": "Tutaj znajdziesz harmonogram oraz wskazówki dojazdu."
+  },
+  "faq": {
+    "title": "Często Zadawane Pytania",
+    "description": "Odpowiedzi na najważniejsze pytania organizacyjne."
+  },
+  "gallery": {
+    "title": "Galeria Zdjęć",
+    "description": "Wspomnienia uchwycone w kadrze."
+  },
+  "contact": {
+    "title": "Potwierdzenie Przybycia (RSVP)",
+    "description": "Prosimy o wypełnienie formularza do końca miesiąca."
+  }
+}

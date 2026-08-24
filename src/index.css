@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #F4F1EA;
+  --bg-navbar: #2A2421;
+  --text-main: #1C1917;
+  --text-muted: #574E47;
+  --accent-red: #8C2525;
+  --accent-blue: #2D4A5E;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: system-ui, -apple-system, sans-serif;
+}
