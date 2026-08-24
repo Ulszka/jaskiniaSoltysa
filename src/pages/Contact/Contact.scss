@@ -1,0 +1,49 @@
+.contact-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.contact-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+
+  @media (min-width: 890px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+
+    .contact-description {
+      font-size: 1.125rem;
+      color: #6B625B;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+
+  .contact-image-wrapper {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.75rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      display: block;
+    }
+  }
+}

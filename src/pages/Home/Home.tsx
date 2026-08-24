@@ -11,7 +11,6 @@ export default function Home(): React.JSX.Element {
       <div className="hero-layout">
         <div className="hero-content">
           <h1 className="card-title">{t('home.title')}</h1>
-          <p className="card-subtitle">{t('home.subtitle')}</p>
         </div>
 
         <div className="hero-image-wrapper">

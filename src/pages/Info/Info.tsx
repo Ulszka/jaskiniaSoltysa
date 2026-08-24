@@ -1,0 +1,45 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import './Info.scss';
+import photo1 from '../../assets/pictures/photoCeremony.jpg';
+import photo2 from '../../assets/pictures/photoParty.jpg';
+
+export default function Info(): React.JSX.Element {
+  const { t } = useTranslation();
+
+  return (
+    <div className="info-container">
+      <div className="info-grid">
+        {/* Column 1 */}
+        <div className="info-column">
+          <div className="column-text">
+            <h2 className="column-title">{t('info.slub.title')}</h2>
+            <div className="column-description">
+              <p>{t('info.slub.desc1')}</p>
+              <p>{t('info.slub.desc2')}</p>
+              <p>{t('info.slub.desc3')}</p>
+            </div>
+          </div>
+          <div className="column-image-wrapper">
+            <img src={photo1} alt={t('info.slub.title')} />
+          </div>
+        </div>
+
+        {/* Column 2 */}
+        <div className="info-column">
+          <div className="column-text">
+            <h2 className="column-title">{t('info.wesele.title')}</h2>
+            <div className="column-description">
+              <p>{t('info.wesele.desc1')}</p>
+              <p>{t('info.wesele.desc2')}</p>
+              <p>{t('info.wesele.desc3')}</p>
+            </div>
+          </div>
+          <div className="column-image-wrapper">
+            <img src={photo2} alt={t('info.wesele.title')} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

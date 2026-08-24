@@ -3,27 +3,60 @@
     "home": "Strona Główna",
     "info": "Informacje",
     "faq": "Pytania",
-    "photos": "Zdjęcia",
+    "gallery": "Galeria",
     "contact": "Kontakt"
   },
   "home": {
-    "title": "Witajcie w Jaskini Sołtysa",
-    "subtitle": "Zapraszamy do wspólnego świętowania naszych wyjątkowych chwil!"
+    "title": "Pobieramy się!\n 24.04.2027\n godz. 16:00\n Nie może Was zabraknąć!"
   },
   "info": {
-    "title": "Informacje o wydarzeniu",
-    "description": "Tutaj znajdziesz harmonogram oraz wskazówki dojazdu."
+    "slub": {
+      "title": "Ślub",
+      "desc1": "Kiedy? – 24.04.2027 godz. 16:00",
+      "desc2": "Gdzie? – Sanktuarium Relikwii Drzewa Krzyża Świętego",
+      "desc3": "Link do map Google: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
+    },
+    "wesele": {
+      "title": "Wesele",
+      "desc1": "Kiedy? – po ślubie (ok. 17:30)",
+      "desc2": "Gdzie? – Świętokrzyski Dwór",
+      "desc3": "Link do map Google: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
+    }
   },
   "faq": {
     "title": "Często Zadawane Pytania",
-    "description": "Odpowiedzi na najważniejsze pytania organizacyjne."
+    "slub": {
+      "question": "Ślub – gdzie i kiedy?",
+      "answer": "Odbędzie się 24.04.2027 o godz. 16:00  w Sanktuarium Relikwii Drzewa Krzyża Świętego.  Link do map Google: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
+    },
+    "wesele": {
+      "question": "Wesele – gdzie i kiedy?",
+      "answer": "Odbędzie się po ślubie, uwzględniając czas na przejazd będzie to ok. 17:30. Na tę część świętowania kolejnego etapu w naszym życiu zapraszamy do  Świętokrzyskiego Dworu w Nowej Słupii. Link do map Google: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
+    },
+    "theme": {
+      "question": "Jaka jest tematyka wesela?",
+      "answer": "Tradycyjne wesele słowiańskie z elementami Władcy Pierścieni i Wiedźmina. Nie oczekujemy dostosowywania się ubiorem, fryzurą itd. do tematyki. Zachęcamy natomiast do dobrej zabawy jak na wesele słowiańskie przystało ;)"
+    },
+    "parking": {
+      "question": "Czy na miejscu jest parking?",
+      "answer": "Tak, dla wszystkich gości dostępny jest bezpłatny parking bezpośrednio przy obiekcie."
+    },
+    "rsvp": {
+      "question": "Do kiedy należy potwierdzić przybycie?",
+      "answer": "Prosimy o potwierdzenie obecności do 28 lutego. Obecność można potwierdzić telefonicznie, SMSem lub przez wiadomość na social mediach."
+    },
+    "accommodation": {
+      "question": "Czy przewidziany jest nocleg?",
+      "answer": "Tak, dla gości spoza województwa świętokrzyskiego przewidujemy nocleg z soboty na niedzielę. Możliwość zameldowania jest dostępna już 24 kwietnia od 14:00. Wymeldowanie jest do 12:00 następnego dnia (25 kwietnia)."
+    }
   },
   "gallery": {
-    "title": "Galeria Zdjęć",
-    "description": "Wspomnienia uchwycone w kadrze."
+    "desc1": "Zachęcamy Was do przesłania nam wszystkich zdjęć, które zrobicie na weselu jako pamiątki. Stwórzmy razem niezapomniany album: link do dysku",
+    "desc2": "Ale nie bójcie się, na weselu będzie też para utalentowanych fotografów, którzy postarają się zrobić jak najlepszy reportaż zdjęciowy z tego dnia. Ich dzieła znajdziecie tu za jakiś czas: link do dysku",
+    "desc3": "A na razie możecie podziwiać jedno z ich zdjęć :)"
   },
   "contact": {
-    "title": "Potwierdzenie Przybycia (RSVP)",
-    "description": "Prosimy o wypełnienie formularza do końca miesiąca."
+    "desc1": "W razie pytań kontaktujcie się z nami najlepiej przez messengera, linki poniżej Ula Krystian",
+    "desc2": "W dniu ślubu prosimy o kontakt z ... My będziemy zbyt zajęci przygotowaniami ;)"
   }
 }

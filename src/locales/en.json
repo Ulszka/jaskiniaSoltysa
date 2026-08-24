@@ -3,27 +3,60 @@
     "home": "Home",
     "info": "Information",
     "faq": "Questions",
-    "photos": "Photos",
+    "gallery": "Gallery",
     "contact": "Contact Us"
   },
   "home": {
-    "title": "Welcome to Sołtys Cave",
-    "subtitle": "We invite you to celebrate our special moments together!"
+    "title": "We're getting married!\n 24.04.2027\n 16:00 \n You can't miss it!"
   },
   "info": {
-    "title": "Event information",
-    "description": "Here you will find a schedule and directions."
+    "slub": {
+      "title": "Wedding ceremony",
+      "desc1": "When? – 24.04.2027 at 16:00",
+      "desc2": "Where? – Sanctuary of the Relics of the Tree of the Holy Cross",
+      "desc3": "Link to Google Maps: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
+    },
+    "wesele": {
+      "title": "Wedding party",
+      "desc1": "When? – after the wedding ceremony (approx. 17:30)",
+      "desc2": "Where? – Świętokrzyski Dwór",
+      "desc3": "Link to Google Maps: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "description": "Answers to the most important organizational questions."
+    "slub": {
+      "question": "Wedding ceremony– where and when? ",
+      "answer": "It will take place on 24.04.2027 at 16:00  at the Sanctuary of the Relics of the Tree of the Holy Cross.  Link to Google Maps: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
+    },
+    "wesele": {
+      "question": "Wedding party – where and when?",
+      "answer": "It will take place after the wedding, taking into account the time for the ride, it will be approx. 17:30. For this part of celebrating the next stage in our lives, we invite you to the Świętokrzyski Dwór in Nowa Słupia. Link to Google Maps: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
+    },
+    "theme": {
+      "question": "What is the theme of the wedding?",
+      "answer": "A traditional Slavic wedding with elements of The Lord of the Rings and The Witcher. We do not expect you to adapt your clothes, hairstyle, etc. to the subject matter. However, we encourage you to have fun as if it were a Slavic wedding ;)"
+    },
+    "parking": {
+      "question": "Is there parking on site?",
+      "answer": "Yes, free parking is available for all guests directly at the property."
+    },
+    "rsvp": {
+      "question": "When should I confirm my arrival?",
+      "answer": "Please confirm your attendance by February 28th. The presence can be confirmed by phone, SMS or via a message on social media."
+    },
+    "accommodation": {
+      "question": "Is there a place to stay?",
+      "answer": "Yes, for guests from outside the Świętokrzyskie Voivodeship, we provide accommodation from Saturday to Sunday. Check-in is available on April 24 from 14:00. Check-out is until 12:00 the next day (April 25)."
+    }
   },
   "gallery": {
-    "title": "Photo Gallery",
-    "description": "Memories captured in the frame."
+    "desc1": "We encourage you to send us all the photos you will take at the wedding as souvenirs. Let's create an unforgettable album together: a link to the disk",
+    "desc2": "But don't worry, there will also be a pair of talented photographers at the wedding who will try to make the best photo reportage of the day. You will find their work here in a while: link to the disk",
+    "desc3": "In the meantime, you can admire one of their photos :)"
   },
   "contact": {
-    "title": "Arrival Confirmation (RSVP)",
-    "description": "Please complete the form by the end of the month."
+    "desc1": "If you have any questions, please contact us preferably via messenger, links below Ula Krystian",
+    "desc2": "On the day of the wedding, please contact ... We will be too busy preparing ;)"
   }
 }
