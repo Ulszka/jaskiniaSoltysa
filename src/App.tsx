@@ -6,6 +6,7 @@ import Info from './pages/Info/Info';
 import Faq from './pages/Faq/Faq';
 import Gallery from './pages/Gallery/Gallery';
 import Contact from './pages/Contact/Contact';
+import NotFound from './pages/NotFound/NotFound';
 
 export default function App(): React.JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function App(): React.JSX.Element {
           <Route path="/faq" element={<Faq />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </BrowserRouter>

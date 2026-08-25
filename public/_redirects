@@ -1,0 +1,3 @@
+# Netlify / Cloudflare Pages: serve index.html for client-side routes
+# so deep links like /faq resolve instead of 404-ing.
+/*  /index.html  200

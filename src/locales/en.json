@@ -4,7 +4,12 @@
     "info": "Information",
     "faq": "Questions",
     "gallery": "Gallery",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "menuLabel": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToEnglish": "Switch to English",
+    "switchToPolish": "Switch to Polish"
   },
   "home": {
     "title": "We're getting married!\n 24.04.2027\n 16:00 \n You can't miss it!"
@@ -58,5 +63,10 @@
   "contact": {
     "desc1": "If you have any questions, please contact us preferably via messenger, links below Ula Krystian",
     "desc2": "On the day of the wedding, please contact ... We will be too busy preparing ;)"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "It looks like this link is broken or the page has moved.",
+    "backHome": "Back to the home page"
   }
 }

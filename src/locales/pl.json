@@ -4,7 +4,12 @@
     "info": "Informacje",
     "faq": "Pytania",
     "gallery": "Galeria",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "menuLabel": "Nawigacja główna",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "switchToEnglish": "Przełącz na angielski",
+    "switchToPolish": "Przełącz na polski"
   },
   "home": {
     "title": "Pobieramy się!\n 24.04.2027\n godz. 16:00\n Nie może Was zabraknąć!"
@@ -58,5 +63,10 @@
   "contact": {
     "desc1": "W razie pytań kontaktujcie się z nami najlepiej przez messengera, linki poniżej Ula Krystian",
     "desc2": "W dniu ślubu prosimy o kontakt z ... My będziemy zbyt zajęci przygotowaniami ;)"
+  },
+  "notFound": {
+    "title": "Nie ma takiej strony",
+    "description": "Wygląda na to, że ten link jest nieprawidłowy lub strona została przeniesiona.",
+    "backHome": "Wróć na stronę główną"
   }
 }

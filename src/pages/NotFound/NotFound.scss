@@ -1,0 +1,43 @@
+.not-found-container {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.not-found-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1C1917;
+}
+
+.not-found-description {
+  font-size: 1.125rem;
+  color: #6B625B;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.not-found-link {
+  padding: 0.65rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #8C2525;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #a12c2c;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #8C2525;
+    outline-offset: 2px;
+  }
+}
