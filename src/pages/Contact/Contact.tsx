@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import contactImage from '../../assets/pictures/photoContact.jpg';
+import contactImage from '../../assets/pictures/photoContact.webp';
 import './Contact.scss';
 
 export default function Contact(): React.JSX.Element {

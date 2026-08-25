@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import galleryImage from '../../assets/pictures/photoGallery.jpg';
+import galleryImage from '../../assets/pictures/photoGallery.webp';
 import './Gallery.scss';
 
 export default function Gallery(): React.JSX.Element {
