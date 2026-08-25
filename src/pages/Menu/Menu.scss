@@ -72,3 +72,37 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .menu-container {
+    width: 100%;
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  .menu-content {
+    .menu-page-title {
+      font-size: 2rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .menu-columns {
+      gap: 1.25rem;
+
+      .menu-column {
+        gap: 1.25rem;
+
+        .menu-column-title {
+          font-size: 1.5rem;
+        }
+      }
+
+      .menu-item {
+        padding: 1.25rem;
+
+        .menu-category {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
   .header-container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 1.25rem;
     height: 4.5rem;
     display: flex;
     align-items: center;
@@ -75,6 +75,68 @@
 
       &:hover {
         background-color: #3b5f78;
+      }
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    color: #EAE6DF;
+    background: transparent;
+    border: 1px solid rgba(234, 230, 223, 0.35);
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 750px) {
+  .site-header {
+    .header-container {
+      height: 4rem;
+    }
+
+    .brand-link img {
+      max-width: 9rem;
+      height: 3rem;
+    }
+
+    .menu-toggle {
+      display: flex;
+    }
+
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 4rem;
+      left: 0;
+      right: 0;
+      padding: 0.75rem 1.25rem 1rem;
+      margin: 0;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.25rem;
+      background-color: #2A2421;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+
+      &.is-open {
+        display: flex;
+      }
+
+      .nav-item,
+      .lang-button {
+        width: 100%;
+        margin: 0;
+        padding: 0.75rem 1rem;
+        text-align: left;
+      }
+
+      .lang-button {
+        margin-top: 0.25rem;
+        text-align: center;
       }
     }
   }
