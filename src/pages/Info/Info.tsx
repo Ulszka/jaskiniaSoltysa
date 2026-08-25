@@ -7,6 +7,27 @@ import photo2 from '../../assets/pictures/photoParty.jpg';
 export default function Info(): React.JSX.Element {
   const { t } = useTranslation();
 
+  const renderMapLink = (translationKey: string, linkTextKey: string): React.JSX.Element => {
+    const description = t(translationKey);
+    const separatorIndex = description.indexOf(': ');
+
+    if (separatorIndex === -1) {
+      return <p>{description}</p>;
+    }
+
+    const label = description.slice(0, separatorIndex);
+    const url = description.slice(separatorIndex + 2);
+
+    return (
+      <p>
+        {label}:{' '}
+        <a href={url} target="_blank" rel="noreferrer">
+          {t(linkTextKey)}
+        </a>
+      </p>
+    );
+  };
+
   return (
     <div className="info-container">
       <div className="info-grid">
@@ -17,7 +38,7 @@ export default function Info(): React.JSX.Element {
             <div className="column-description">
               <p>{t('info.slub.desc1')}</p>
               <p>{t('info.slub.desc2')}</p>
-              <p>{t('info.slub.desc3')}</p>
+              {renderMapLink('info.slub.desc3', 'info.slub.linkText')}
             </div>
           </div>
           <div className="column-image-wrapper">
@@ -32,7 +53,7 @@ export default function Info(): React.JSX.Element {
             <div className="column-description">
               <p>{t('info.wesele.desc1')}</p>
               <p>{t('info.wesele.desc2')}</p>
-              <p>{t('info.wesele.desc3')}</p>
+              {renderMapLink('info.wesele.desc3', 'info.wesele.linkText')}
             </div>
           </div>
           <div className="column-image-wrapper">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import logo from '../../assets/pictures/logo.jpg';
 import './Navbar.scss';
 
 export default function Navbar(): React.JSX.Element {
@@ -15,8 +16,7 @@ export default function Navbar(): React.JSX.Element {
     <header className="site-header">
       <div className="header-container">
         <Link to="/" className="brand-link">
-          <span className="brand-dot"></span>
-          <span>Jaskinia Sołtysa</span>
+          <img src={logo} alt="Jaskinia Sołtysa" />
         </Link>
 
         <nav className="nav-links">
@@ -28,6 +28,9 @@ export default function Navbar(): React.JSX.Element {
           </NavLink>
           <NavLink to="/faq" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
             {t('nav.faq', 'FAQ')}
+          </NavLink>
+          <NavLink to="/menu" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+            {t('nav.menu', 'Menu')}
           </NavLink>
           <NavLink to="/gallery" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
             {t('nav.gallery', 'Galeria')}

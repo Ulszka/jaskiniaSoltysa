@@ -12,12 +12,14 @@
   "info": {
     "slub": {
       "title": "Ślub",
+      "linkText": "Sanktuarium",
       "desc1": "Kiedy? – 24.04.2027 godz. 16:00",
       "desc2": "Gdzie? – Sanktuarium Relikwii Drzewa Krzyża Świętego",
       "desc3": "Link do map Google: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
     },
     "wesele": {
       "title": "Wesele",
+      "linkText": "Świętokrzyski Dwór",
       "desc1": "Kiedy? – po ślubie (ok. 17:30)",
       "desc2": "Gdzie? – Świętokrzyski Dwór",
       "desc3": "Link do map Google: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
@@ -27,10 +29,12 @@
     "title": "Często Zadawane Pytania",
     "slub": {
       "question": "Ślub – gdzie i kiedy?",
+      "linkText": "Sanktuarium",
       "answer": "Odbędzie się 24.04.2027 o godz. 16:00  w Sanktuarium Relikwii Drzewa Krzyża Świętego.  Link do map Google: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
     },
     "wesele": {
       "question": "Wesele – gdzie i kiedy?",
+      "linkText": "Świętokrzyski Dwór",
       "answer": "Odbędzie się po ślubie, uwzględniając czas na przejazd będzie to ok. 17:30. Na tę część świętowania kolejnego etapu w naszym życiu zapraszamy do  Świętokrzyskiego Dworu w Nowej Słupii. Link do map Google: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
     },
     "theme": {
@@ -50,13 +54,61 @@
       "answer": "Tak, dla gości spoza województwa świętokrzyskiego przewidujemy nocleg z soboty na niedzielę. Możliwość zameldowania jest dostępna już 24 kwietnia od 14:00. Wymeldowanie jest do 12:00 następnego dnia (25 kwietnia)."
     }
   },
+  "menu": {
+    "title": "Menu",
+    "column1Title": "Dania serwowane",
+    "column2Title": "Dania wystawione",
+    "soup": {
+      "title": "Zupa",
+      "items": "W trakcie ustaleń"
+    },
+    "mains": {
+      "title": "Danie Główne",
+      "items": "W trakcie ustaleń"
+    },
+    "supper1": {
+      "title": "Pierwsza gorąca kolacja",
+      "items": "W trakcie ustaleń"
+    },
+    "supper2": {
+      "title": "Druga gorąca kolacja",
+      "items": "W trakcie ustaleń"
+    },
+    "supper3": {
+      "title": "Trzecia gorąca kolacja",
+      "items": "W trakcie ustaleń"
+    },
+    "snacks": {
+      "title": "Zimne przekąski",
+      "items": "W trakcie ustaleń"
+    },
+    "desserts": {
+      "title": "Ciasta i owoce",
+      "items": "W trakcie ustaleń"
+    },
+    "nonAlkDrinks": {
+      "title": "Napoje",
+      "items": "Pepsi, Mirinda, 7Up, sok pomarańczowy, sok jabłkowy, woda niegazowana z cytryną, kawa z ekspresu ciśnienieowego, kawa parzona,  kawa rozpuszczalna, herbata czarna, herbaty owocowe"
+    },
+    "alkDrinks": {
+      "title": "Alkohol",
+      "items": "Wódka, bimber, drinki u barmana, piwo"
+    }
+  },
   "gallery": {
     "desc1": "Zachęcamy Was do przesłania nam wszystkich zdjęć, które zrobicie na weselu jako pamiątki. Stwórzmy razem niezapomniany album: link do dysku",
-    "desc2": "Ale nie bójcie się, na weselu będzie też para utalentowanych fotografów, którzy postarają się zrobić jak najlepszy reportaż zdjęciowy z tego dnia. Ich dzieła znajdziecie tu za jakiś czas: link do dysku",
+    "desc1Url": "https://drive.google.com/drive/folders/1U8RYIhG6zcnJumtrPGBxE_UzORzQNQFr?usp=sharing",
+    "desc2": "Ale nie bójcie się, na weselu będzie też para utalentowanych fotografów, którzy postarają się zrobić jak najlepszy reportaż zdjęciowy z tego dnia. Ich dzieła znajdziecie tu za jakiś czas: jeszcze nie ma :P",
+    "desc2Url": "",
     "desc3": "A na razie możecie podziwiać jedno z ich zdjęć :)"
   },
   "contact": {
-    "desc1": "W razie pytań kontaktujcie się z nami najlepiej przez messengera, linki poniżej Ula Krystian",
-    "desc2": "W dniu ślubu prosimy o kontakt z ... My będziemy zbyt zajęci przygotowaniami ;)"
+    "desc1": "W razie pytań kontaktujcie się z nami najlepiej przez messengera, linki poniżej:",
+    "ulaLinkText": "Ula",
+    "ulaUrl": "https://m.me/ula.handzlik",
+    "krystianLinkText": "Krystian",
+    "krystianUrl": "https://m.me/sudokrystian",
+    "desc2": "W dniu ślubu prosimy o kontakt z ... ",
+    "desc3": "My będziemy zbyt zajęci przygotowaniami ;)"
   }
 }

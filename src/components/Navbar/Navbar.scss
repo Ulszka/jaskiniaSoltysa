@@ -25,11 +25,12 @@
     font-weight: 700;
     letter-spacing: 0.08em;
 
-    .brand-dot {
-      width: 0.625rem;
-      height: 0.625rem;
-      border-radius: 50%;
-      background-color: #8C2525;
+    img {
+      width: auto;
+      max-width: 12rem;
+      height: 3.5rem;
+      object-fit: contain;
+      display: block;
     }
   }
 

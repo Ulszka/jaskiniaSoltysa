@@ -12,14 +12,16 @@
   "info": {
     "slub": {
       "title": "Wedding ceremony",
+      "linkText": "Sanctuary",
       "desc1": "When? – 24.04.2027 at 16:00",
       "desc2": "Where? – Sanctuary of the Relics of the Tree of the Holy Cross",
       "desc3": "Link to Google Maps: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
     },
     "wesele": {
       "title": "Wedding party",
+      "linkText": "Świętokrzyski Manor",
       "desc1": "When? – after the wedding ceremony (approx. 17:30)",
-      "desc2": "Where? – Świętokrzyski Dwór",
+      "desc2": "Where? – Świętokrzyski Manor",
       "desc3": "Link to Google Maps: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
     }
   },
@@ -27,11 +29,13 @@
     "title": "Frequently Asked Questions",
     "slub": {
       "question": "Wedding ceremony– where and when? ",
+      "linkText": "Sanctuary",
       "answer": "It will take place on 24.04.2027 at 16:00  at the Sanctuary of the Relics of the Tree of the Holy Cross.  Link to Google Maps: https://maps.app.goo.gl/F8XGFVHXnKB7dPHbA"
     },
     "wesele": {
       "question": "Wedding party – where and when?",
-      "answer": "It will take place after the wedding, taking into account the time for the ride, it will be approx. 17:30. For this part of celebrating the next stage in our lives, we invite you to the Świętokrzyski Dwór in Nowa Słupia. Link to Google Maps: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
+      "linkText": "Świętokrzyski Manor",
+      "answer": "It will take place after the wedding, taking into account the time for the ride, it will be approx. 17:30. For this part of celebrating the next stage in our lives, we invite you to the Świętokrzyski Manor in Nowa Słupia. Link to Google Maps: https://maps.app.goo.gl/y3N128beyn8s4Abs7"
     },
     "theme": {
       "question": "What is the theme of the wedding?",
@@ -50,13 +54,61 @@
       "answer": "Yes, for guests from outside the Świętokrzyskie Voivodeship, we provide accommodation from Saturday to Sunday. Check-in is available on April 24 from 14:00. Check-out is until 12:00 the next day (April 25)."
     }
   },
+  "menu": {
+    "title": "Menu",
+    "column1Title": "Served dishes",
+    "column2Title": "Dishes on display",
+    "soup": {
+      "title": "Soup",
+      "items": "Currently being determined"
+    },
+    "mains": {
+      "title": "Main Dishes",
+      "items": "Currently being determined"
+    },
+    "supper1": {
+      "title": "First Hot Meal",
+      "items": "Currently being determined"
+    },
+    "supper2": {
+      "title": "Second Hot Meal",
+      "items": "Currently being determined"
+    },
+    "supper3": {
+      "title": "Third Hot Meal",
+      "items": "Currently being determined"
+    },
+    "snacks": {
+      "title": "Cold Snacks",
+      "items": "Currently being determined"
+    },
+    "desserts": {
+      "title": "Desserts and Fruits",
+      "items": "Currently being determined"
+    },
+    "nonAlkDrinks": {
+      "title": "Non-Alcoholic Drinks",
+      "items": "Pepsi, Mirinda, 7Up, orange juice, apple juice, still water with lemon, espresso-machine coffee, brewed coffee, instant coffee, black tea, fruit teas"
+    },
+    "alkDrinks": {
+      "title": "Alcoholic Drinks",
+      "items": "Vodka, hooch, drinks from the bartender, beer"
+    }
+  },
   "gallery": {
     "desc1": "We encourage you to send us all the photos you will take at the wedding as souvenirs. Let's create an unforgettable album together: a link to the disk",
-    "desc2": "But don't worry, there will also be a pair of talented photographers at the wedding who will try to make the best photo reportage of the day. You will find their work here in a while: link to the disk",
+    "desc1Url": "https://drive.google.com/drive/folders/1U8RYIhG6zcnJumtrPGBxE_UzORzQNQFr?usp=sharing",
+    "desc2": "But don't worry, there will also be a pair of talented photographers at the wedding who will try to make the best photo reportage of the day. You will find their work here in a while: not yet :P",
+    "desc2Url": "",
     "desc3": "In the meantime, you can admire one of their photos :)"
   },
   "contact": {
-    "desc1": "If you have any questions, please contact us preferably via messenger, links below Ula Krystian",
-    "desc2": "On the day of the wedding, please contact ... We will be too busy preparing ;)"
+    "desc1": "If you have any questions, please contact us preferably via messenger, links below:",
+    "ulaLinkText": "Ula",
+    "ulaUrl": "https://m.me/ula.handzlik",
+    "krystianLinkText": "Krystian",
+    "krystianUrl": "https://m.me/sudokrystian",
+    "desc2": "On the day of the wedding, please contact ... ",
+    "desc3": "We will be too busy preparing ;)"
   }
 }
