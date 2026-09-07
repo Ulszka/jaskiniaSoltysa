@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import logo from '../../assets/pictures/logo.jpg';
+import logo from '../../assets/pictures/logo.png';
 import './Navbar.scss';
 
 export default function Navbar(): React.JSX.Element {
