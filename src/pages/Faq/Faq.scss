@@ -1,3 +1,5 @@
+@use '../../styles/global' as *;
+
 .faq-container {
   max-width: 52rem;
   margin: 0 auto;
@@ -6,8 +8,8 @@
 
 .faq-content {
   .faq-page-title {
-    font-family: 'Cinzel', serif;
-    font-size: 2.25rem;
+    font-family: $font-family-heading;
+    font-size: $font-size-header;
     font-weight: 700;
     color: #1C1917;
     margin-bottom: 2.5rem;
@@ -24,15 +26,15 @@
 
   .faq-item {
     .faq-question {
-      font-family: 'Cinzel', serif;
-      font-size: 1.35rem;
+      font-family: $font-family-heading;
+      font-size: $font-size-body-header;
       font-weight: 700;
       color: #8C2525;
       margin-bottom: 0.5rem;
     }
 
     .faq-answer {
-      font-size: 1.05rem;
+      font-size: $font-size-body-text;
       color: #6B625B;
       line-height: 1.6;
       margin: 0;
