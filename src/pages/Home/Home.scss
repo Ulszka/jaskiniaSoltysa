@@ -1,19 +1,15 @@
 .home-container {
-  width: 90%;
+  width: max(90%);
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
 
 .hero-layout {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 2.5rem;
   align-items: center;
-
-  @media (min-width: 890px) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  justify-content: space-between;
 
   .hero-content {
     flex: 1;
@@ -67,21 +63,3 @@
   }
 }
 
-@media (max-width: 700px) {
-  .home-container {
-    width: 100%;
-    padding: 1.5rem 1rem 2rem;
-  }
-
-  .hero-layout {
-    gap: 1.75rem;
-
-    .hero-content .card-title {
-      font-size: 1.75rem;
-    }
-
-    .hero-image-wrapper img {
-      border-radius: 0.5rem;
-    }
-  }
-}
