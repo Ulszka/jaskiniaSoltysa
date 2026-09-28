@@ -1,3 +1,5 @@
+@use '../../styles/global' as *;
+
 .gallery-container {
   width: max(90%);
   margin: 0 auto;
@@ -20,7 +22,7 @@
     text-align: left;
 
     .gallery-description {
-      font-size: 1.125rem;
+      font-size: $font-size-body-text;
       color: #6B625B;
       line-height: 1.6;
       margin: 0;
@@ -45,6 +47,35 @@
       border-radius: 0.75rem;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
       display: block;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .gallery-container {
+    width: min(92%, $breakpoint-tablet);
+    padding: 1.5rem 1rem;
+  }
+
+  .gallery-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .gallery-container {
+    width: min(92%, $breakpoint-phone);
+    padding: 1.25rem 0.75rem;
+  }
+
+  .gallery-layout {
+    gap: 1rem;
+
+    .gallery-content {
+      .gallery-description {
+        font-size: $font-size-body-text;
+      }
     }
   }
 }
