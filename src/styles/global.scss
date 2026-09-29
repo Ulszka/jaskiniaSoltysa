@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
+$breakpoint-tablet: 1200px;
+$breakpoint-phone: 750px;
+
+
+$font-size-navbar: 1rem;
+$font-size-header: 2rem;
+$font-size-body-header: 1.5rem;
+$font-size-body-text: 1.2rem;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #F4F0E8;
   color: #1C1917;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: $font-size-body-text;
   min-height: 100vh;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-wrapper {
+  width: 100%;
 }
 
 a {

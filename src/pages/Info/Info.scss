@@ -1,18 +1,16 @@
+@use '../../styles/global' as *;
+
 .info-container {
-  width: 90%;
+  width: max(90%);
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
 
 .info-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: stretch;
-
-  @media (min-width: 890px) {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .info-column {
@@ -31,7 +29,7 @@
 
     .column-title {
       font-family: 'Cinzel', serif;
-      font-size: 1.75rem;
+      font-size: $font-size-header;
       font-weight: 700;
       color: #1C1917;
       margin-bottom: 1rem;
@@ -41,7 +39,7 @@
     }
 
     .column-description {
-      font-size: 1rem;
+      font-size: $font-size-body-text;
       color: #6B625B;
       line-height: 1.6;
       
@@ -72,3 +70,39 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .info-container {
+    width: min(92%, $breakpoint-tablet);
+    padding: 1.5rem 1rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .info-column {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .info-container {
+    width: min(92%, $breakpoint-phone);
+    padding: 1.25rem 0.75rem;
+  }
+
+  .info-column {
+    padding: 1.25rem;
+
+    .column-text {
+      margin-bottom: 1.25rem;
+
+      .column-title {
+        font-size: $font-size-header;
+      }
+    }
+  }
+}
+
