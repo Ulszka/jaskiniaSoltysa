@@ -28,7 +28,7 @@
       display: inline-block;
       padding: 0.3rem 0.875rem;
       font-size: 0.75rem;
-      font-weight: 600;
+      font-weight: $font-weight-body-text;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       background-color: rgba(140, 37, 37, 0.1);
@@ -41,7 +41,7 @@
     .card-title {
       font-family: $font-family-heading;
       font-size: $font-size-header;
-      font-weight: 700;
+      font-weight: $font-weight-header;
       color: #1C1917;
       line-height: 1.3;
       white-space: pre-line;

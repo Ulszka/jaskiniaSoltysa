@@ -15,7 +15,7 @@
   .menu-page-title {
     font-family: $font-family-heading;
     font-size: $font-size-header;
-    font-weight: 700;
+    font-weight: $font-weight-header;
     color: #1C1917;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -41,7 +41,7 @@
       .menu-column-title {
         font-family: $font-family-heading;
         font-size: $font-size-header;
-        font-weight: 700;
+        font-weight: $font-weight-header;
         color: #8C2525;
         margin: 0;
         text-align: center;
@@ -58,7 +58,7 @@
       .menu-category {
         font-family: $font-family-heading;
         font-size: $font-size-body-header;
-        font-weight: 700;
+        font-weight: $font-weight-body-header;
         color: #1C1917;
         margin-bottom: 0.5rem;
         border-bottom: 2px solid rgba(140, 37, 37, 0.2);

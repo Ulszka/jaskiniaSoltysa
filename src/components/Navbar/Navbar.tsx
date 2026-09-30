@@ -16,7 +16,7 @@ export default function Navbar(): React.JSX.Element {
     <header className="site-header">
       <div className="header-container">
         <Link to="/" className="brand-link">
-          <img src={logo} alt="Jaskinia Sołtysa" />
+          <img src={logo} alt="logo" />
         </Link>
 
         <nav className="nav-links">
