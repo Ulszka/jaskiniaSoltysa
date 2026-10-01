@@ -3,6 +3,13 @@
 $breakpoint-tablet: 1200px;
 $breakpoint-phone: 750px;
 
+$font-family-body: 'Plus Jakarta Sans', sans-serif;
+$font-family-heading: 'Cinzel', serif;
+
+$font-weight-navbar: 500;
+$font-weight-header: 700;
+$font-weight-body-header: 700;
+$font-weight-body-text: 600;
 
 $font-size-navbar: 1rem;
 $font-size-header: 2rem;
@@ -22,7 +29,7 @@ html {
 body {
   background-color: #F4F0E8;
   color: #1C1917;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: $font-family-body;
   font-size: $font-size-body-text;
   min-height: 100vh;
   line-height: 1.5;

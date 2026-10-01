@@ -8,9 +8,9 @@
 
 .faq-content {
   .faq-page-title {
-    font-family: 'Cinzel', serif;
+    font-family: $font-family-heading;
     font-size: $font-size-header;
-    font-weight: 700;
+    font-weight: $font-weight-header;
     color: #1C1917;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -26,9 +26,9 @@
 
   .faq-item {
     .faq-question {
-      font-family: 'Cinzel', serif;
+      font-family: $font-family-heading;
       font-size: $font-size-body-header;
-      font-weight: 700;
+      font-weight: $font-weight-body-header;
       color: #8C2525;
       margin-bottom: 0.5rem;
     }

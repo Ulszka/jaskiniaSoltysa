@@ -1,7 +1,9 @@
 @use '../../styles/global' as *;
 
+$navbar-background: #2A2421;
+
 .site-header {
-  background-color: #2A2421;
+  background-color: $navbar-background;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
@@ -22,9 +24,9 @@
     align-items: center;
     gap: 0.625rem;
     color: #EAE6DF;
-    font-family: 'Cinzel', serif;
+    font-family: $font-family-heading;
     font-size: $font-size-header;
-    font-weight: 700;
+    font-weight: $font-weight-header;
     letter-spacing: 0.08em;
 
     img {
@@ -44,8 +46,8 @@
 
     .nav-item {
       padding: 0.5rem 0.875rem;
+      font-weight: $font-weight-navbar;
       font-size: $font-size-navbar;
-      font-weight: 500;
       color: #EAE6DF;
       border-radius: 0.375rem;
       transition: all 0.2s ease;
@@ -57,7 +59,7 @@
 
       &.active {
         color: #ffffff;
-        font-weight: 600;
+        font-weight: $font-weight-body-text;
         background-color: #8C2525;
       }
     }
@@ -65,8 +67,8 @@
     .lang-button {
       margin-left: 0.5rem;
       padding: 0.4rem 0.875rem;
+      font-weight: $font-weight-body-text;
       font-size: $font-size-navbar;
-      font-weight: 600;
       letter-spacing: 0.05em;
       background-color: #2D4A5E;
       color: #ffffff;
@@ -156,12 +158,13 @@
       gap: 0.75rem;
       margin-left: 0;
       padding: 1rem 0.875rem 1.25rem;
-      background-color: #2A2421;
+      background-color: $navbar-background;
       border-top: 1px solid rgba(234, 230, 223, 0.15);
       box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 
       &.is-open {
         display: flex;
+        flex-direction: column;
       }
 
       .nav-item {
