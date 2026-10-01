@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
-import logo from '../../assets/pictures/logo.png';
+import logo from '../assets/logo.png';
 import './Navbar.scss';
 
 export default function Navbar(): React.JSX.Element {
