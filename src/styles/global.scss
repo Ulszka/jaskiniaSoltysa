@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 
 $breakpoint-tablet: 1200px;
 $breakpoint-phone: 750px;
 
-$font-family-body: 'Jim Nightshade', cursive;
-$font-family-heading: 'Jim Nightshade', cursive;
+$font-family-body: 'Cinzel Decorative', serif;
+$font-family-heading: 'Cinzel Decorative', serif;
 
 $font-weight-navbar: 500;
 $font-weight-header: 700;
 $font-weight-body-header: 700;
 $font-weight-body-text: 600;
 
-$font-size-navbar: 1.2rem;
-$font-size-header: 2.7rem;
-$font-size-body-header: 2rem;
-$font-size-body-text: 1.5rem;
+$font-size-navbar: 1rem;
+$font-size-header: 2rem;
+$font-size-body-header: 1.5rem;
+$font-size-body-text: 1.2rem;
 
 * {
   box-sizing: border-box;
