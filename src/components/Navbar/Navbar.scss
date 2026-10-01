@@ -12,7 +12,7 @@ $navbar-background: #2A2421;
   .header-container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 1.25rem;
     height: 4.5rem;
     display: flex;
     align-items: center;
@@ -46,8 +46,8 @@ $navbar-background: #2A2421;
 
     .nav-item {
       padding: 0.5rem 0.875rem;
-      font-size: 0.875rem;
       font-weight: $font-weight-navbar;
+      font-size: $font-size-navbar;
       color: #EAE6DF;
       border-radius: 0.375rem;
       transition: all 0.2s ease;
@@ -67,8 +67,8 @@ $navbar-background: #2A2421;
     .lang-button {
       margin-left: 0.5rem;
       padding: 0.4rem 0.875rem;
-      font-size: 0.75rem;
       font-weight: $font-weight-body-text;
+      font-size: $font-size-navbar;
       letter-spacing: 0.05em;
       background-color: #2D4A5E;
       color: #ffffff;

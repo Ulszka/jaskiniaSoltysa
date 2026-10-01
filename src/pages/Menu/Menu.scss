@@ -1,8 +1,7 @@
 @use '../../styles/global' as *;
 
 .menu-container {
-  width: 90%;
-  max-width: 75rem;
+  width: max(90%);
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
@@ -24,13 +23,9 @@
   .menu-columns {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
-
-    @media (min-width: 890px) {
-      flex-direction: row;
-      align-items: flex-start;
-    }
+    align-items: flex-start;
 
     .menu-column {
       flex: 1;
@@ -66,7 +61,7 @@
       }
 
       .menu-details {
-        font-size: 1rem;
+        font-size: $font-size-body-text;
         color: #6B625B;
         line-height: 1.6;
         margin: 0;
@@ -74,3 +69,59 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .menu-container {
+    width: min(92%, $breakpoint-tablet);
+    padding: 1.5rem 1rem;
+  }
+
+  .menu-content {
+    .menu-columns {
+      flex-direction: row;
+      gap: 1rem;
+
+      .menu-column {
+        flex: 1 1 0;
+        min-width: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .menu-container {
+    width: min(92%, $breakpoint-phone);
+    padding: 1.25rem 0.75rem;
+  }
+
+  .menu-content {
+    .menu-page-title {
+      font-size: $font-size-header;
+      margin-bottom: 1.75rem;
+    }
+
+    .menu-columns {
+      flex-direction: column;
+      gap: 1rem;
+
+      .menu-column {
+        width: 100%;
+        gap: 1rem;
+
+        .menu-column-title {
+          font-size: $font-size-header;
+        }
+      }
+
+      .menu-item {
+        padding: 1.1rem 1.25rem;
+
+        .menu-category {
+          font-size: $font-size-body-header;
+        }
+      }
+    }
+  }
+}
+

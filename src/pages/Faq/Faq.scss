@@ -1,7 +1,7 @@
 @use '../../styles/global' as *;
 
 .faq-container {
-  max-width: 52rem;
+  width: max(90%);
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
@@ -46,3 +46,41 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .faq-container {
+    width: min(92%, $breakpoint-tablet);
+    padding: 1.5rem 1rem;
+  }
+
+  .faq-content {
+    .faq-page-title {
+      font-size: $font-size-header;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .faq-container {
+    width: min(92%, $breakpoint-phone);
+    padding: 1.25rem 0.75rem;
+  }
+
+  .faq-content {
+    .faq-page-title {
+      font-size: $font-size-header;
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item {
+      .faq-question {
+        font-size: $font-size-body-header;
+      }
+
+      .faq-answer {
+        font-size: $font-size-body-text;
+      }
+    }
+  }
+}
+
