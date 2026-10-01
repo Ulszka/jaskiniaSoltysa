@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Info.scss';
-import photo1 from '../../assets/pictures/photoCeremony.webp';
-import photo2 from '../../assets/pictures/photoParty.webp';
+import photo1 from '../../assets/photoCeremony.webp';
+import photo2 from '../../assets/photoParty.webp';
 
 export default function Info(): React.JSX.Element {
   const { t } = useTranslation();

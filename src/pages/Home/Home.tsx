@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import homeImage from '../../assets/pictures/photoHome.webp';
+import homeImage from '../../assets/photoHome.webp';
 import './Home.scss';
 
 export default function Home(): React.JSX.Element {
