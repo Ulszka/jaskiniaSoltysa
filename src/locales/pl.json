@@ -88,11 +88,11 @@
     },
     "nonAlkDrinks": {
       "title": "Napoje",
-      "items": "Pepsi, Mirinda, 7Up, sok pomarańczowy, sok jabłkowy, woda niegazowana z cytryną, kawa z ekspresu ciśnienieowego, kawa parzona,  kawa rozpuszczalna, herbata czarna, herbaty owocowe"
+      "items": "woda niegazowana z cytryną; sok pomarańczowy, sok jabłkowy;  Pepsi, Mirinda, 7Up; herbata czarna, herbaty owocowe; kawa z ekspresu ciśnienieowego, kawa parzona,  kawa rozpuszczalna"
     },
     "alkDrinks": {
       "title": "Alkohol",
-      "items": "Wódka, bimber, drinki u barmana, piwo"
+      "items": "wódka; bimber; drinki u barmana; piwo"
     }
   },
   "gallery": {

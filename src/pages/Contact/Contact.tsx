@@ -31,8 +31,8 @@ export default function Contact(): React.JSX.Element {
             <br />
             {renderContactLink('contact.krystianLinkText', 'contact.krystianUrl')}
           </p>
-          <p className="contact-description">{t('contact.desc2')}</p>
-          <p className="contact-description">{t('contact.desc3')}</p>
+          {/* <p className="contact-description">{t('contact.desc2')}</p> */}
+          {/* <p className="contact-description">{t('contact.desc3')}</p> */}
         </div>
 
         {/* Right side: Picture */}

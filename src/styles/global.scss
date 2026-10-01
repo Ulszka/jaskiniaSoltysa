@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 
 $breakpoint-tablet: 1200px;
 $breakpoint-phone: 750px;
 
-$font-family-body: 'Plus Jakarta Sans', sans-serif;
-$font-family-heading: 'Cinzel', serif;
+$font-family-body: 'Cinzel Decorative', serif;
+$font-family-heading: 'Cinzel Decorative', serif;
 
 $font-weight-navbar: 500;
 $font-weight-header: 700;
@@ -33,6 +33,13 @@ body {
   font-size: $font-size-body-text;
   min-height: 100vh;
   line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 img {

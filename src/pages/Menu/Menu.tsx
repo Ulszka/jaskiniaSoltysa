@@ -4,6 +4,17 @@ import './Menu.scss';
 
 export default function Menu(): React.JSX.Element {
   const { t } = useTranslation();
+  const renderMenuItems = (key: string): React.JSX.Element => {
+    const items = t(key).split(';').map((item) => item.trim()).filter(Boolean);
+
+    return (
+      <ul className="menu-details">
+        {items.map((item, index) => (
+          <li key={`${item}-${index}`}>{item}</li>
+        ))}
+      </ul>
+    );
+  };
 
   return (
     <div className="menu-container">
@@ -17,27 +28,27 @@ export default function Menu(): React.JSX.Element {
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.soup.title')}</h2>
-              <p className="menu-details">{t('menu.soup.items')}</p>
+              {renderMenuItems('menu.soup.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.mains.title')}</h2>
-              <p className="menu-details">{t('menu.mains.items')}</p>
+              {renderMenuItems('menu.mains.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.supper1.title')}</h2>
-              <p className="menu-details">{t('menu.supper1.items')}</p>
+              {renderMenuItems('menu.supper1.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.supper2.title')}</h2>
-              <p className="menu-details">{t('menu.supper2.items')}</p>
+              {renderMenuItems('menu.supper2.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.supper3.title')}</h2>
-              <p className="menu-details">{t('menu.supper3.items')}</p>
+              {renderMenuItems('menu.supper3.items')}
             </div>
           </div>
 
@@ -47,22 +58,22 @@ export default function Menu(): React.JSX.Element {
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.snacks.title')}</h2>
-              <p className="menu-details">{t('menu.snacks.items')}</p>
+              {renderMenuItems('menu.snacks.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.desserts.title')}</h2>
-              <p className="menu-details">{t('menu.desserts.items')}</p>
+              {renderMenuItems('menu.desserts.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.nonAlkDrinks.title')}</h2>
-              <p className="menu-details">{t('menu.nonAlkDrinks.items')}</p>
+              {renderMenuItems('menu.nonAlkDrinks.items')}
             </div>
 
             <div className="menu-item">
               <h2 className="menu-category">{t('menu.alkDrinks.title')}</h2>
-              <p className="menu-details">{t('menu.alkDrinks.items')}</p>
+              {renderMenuItems('menu.alkDrinks.items')}
             </div>
           </div>
         </div>

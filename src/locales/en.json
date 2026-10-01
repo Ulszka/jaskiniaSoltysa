@@ -88,11 +88,11 @@
     },
     "nonAlkDrinks": {
       "title": "Non-Alcoholic Drinks",
-      "items": "Pepsi, Mirinda, 7Up, orange juice, apple juice, still water with lemon, espresso-machine coffee, brewed coffee, instant coffee, black tea, fruit teas"
+      "items": "still water with lemon; orange juice, apple juice; Pepsi, Mirinda, 7Up; black tea, fruit teas; espresso-machine coffee, brewed coffee, instant coffee"
     },
     "alkDrinks": {
       "title": "Alcoholic Drinks",
-      "items": "Vodka, hooch, drinks from the bartender, beer"
+      "items": " vodka; hooch; drinks from the bartender; beer"
     }
   },
   "gallery": {
