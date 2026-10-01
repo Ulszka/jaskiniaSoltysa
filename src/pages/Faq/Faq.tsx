@@ -43,6 +43,11 @@ export default function Faq(): React.JSX.Element {
           </div>
 
           <div className="faq-item">
+            <h2 className="faq-question">{t('faq.rsvp.question')}</h2>
+            <p className="faq-answer">{t('faq.rsvp.answer')}</p>
+          </div>
+
+          <div className="faq-item">
             <h2 className="faq-question">{t('faq.theme.question')}</h2>
             <p className="faq-answer">{t('faq.theme.answer')}</p>
           </div>
@@ -50,11 +55,6 @@ export default function Faq(): React.JSX.Element {
           <div className="faq-item">
             <h2 className="faq-question">{t('faq.parking.question')}</h2>
             <p className="faq-answer">{t('faq.parking.answer')}</p>
-          </div>
-
-          <div className="faq-item">
-            <h2 className="faq-question">{t('faq.rsvp.question')}</h2>
-            <p className="faq-answer">{t('faq.rsvp.answer')}</p>
           </div>
 
           <div className="faq-item">
